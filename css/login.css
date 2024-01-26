@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgreen;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #0cb3a2;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.login-logo-container {
+    display: flex;
+}
+
+.login {
+    width: 300px;
+    font-weight: bold;
+}
+
+.login h2 {
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    width: 275px;
+    margin: 0px 0 27px 0;
+    border-bottom: 1px solid black;
+}
+
+.login .error {
+    color: red;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+input {
+    border-radius: 5px;
+}
+
+td,
+th {
+    padding: 0 5px 15px 0;
+    /* Atur padding untuk sel-sel tabel */
+}
+
+.logo {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    position: relative;
+}
+
+.logo2 {
+    width: 150px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo2 img {
+    position: relative;
+}
+
+button {
+    background-color: lightgrey;
+    /* Contoh warna hijau */
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+a {
+    border: 2px solid black;
+    display: inline-block;
+    width: 80px;
+    padding: 1px 0;
+    text-decoration:none ;
+    color: black;
+    background-color: lightgrey;
+    /* Contoh warna hijau */
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #F08080;
+}
+
+a:hover {
+    background-color: #F08080;
+}

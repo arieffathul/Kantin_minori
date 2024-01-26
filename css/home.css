@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgreen;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #0cb3a2;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.option {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 450px;
+}
+
+a {
+    border: 2px solid black;
+    display: inline-block;
+    width: 150px;
+    margin: 15px 30px;
+    padding: 5px 0;
+    text-decoration:none ;
+    color: black;
+    background-color: lightgrey;
+    /* Contoh warna hijau */
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #F08080;
+}

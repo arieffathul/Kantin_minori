@@ -1,0 +1,588 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #0cb3a2;
+    padding: 0px 50px;
+    top: 0px;
+    justify-content: space-between;
+    /* Mengatur agar gambar berada di sebelah kiri */
+    align-items: center;
+    /* Menengahkan elemen secara vertikal */
+    position: sticky;
+
+}
+
+.header img {
+    height: 50px;
+    margin: 15px 0 5px 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    flex: 1;
+    /* Membuat class navigation menempati sisa ruang yang tersedia */
+    text-align: center;
+    /* Menengahkan teks secara horizontal */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    line-height: 73px;
+    padding: 0 15px;
+    height: auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    background-color: #009688;
+    color: white;
+}
+
+/* Body */
+
+body {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+/* Filter */
+.filter {
+    display: flex;
+    width: 100%;
+    background-color: #0cb3a2;
+    padding: 0px 50px;
+    margin-top: 30px;
+    justify-content: space-between;
+    /* Mengatur agar gambar berada di sebelah kiri */
+    align-items: center;
+    /* Menengahkan elemen secara vertikal */
+    border: 1px solid black;
+}
+
+.filter input,
+.filter .pilih {
+    border-radius: 5px;
+    width: 100px;
+    border: 1px solid black;
+    margin-right: 15px;
+    color: black;
+}
+
+.filter .jadwal {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px;
+    color: black;
+    min-width: 100px;
+}
+
+.filter button,
+.filter a {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px 5px;
+    background-color: lightgray;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.filter button:hover,
+.filter a:hover {
+    background-color: #F08080;
+}
+
+.filter table {
+    border-spacing: 0 10px;
+    /* Sesuaikan dengan ukuran jarak yang diinginkan */
+}
+
+/* list */
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    font-size: larger;
+}
+
+.list table {
+    padding: 0px;
+    background-color: white;
+    min-width: 500px;
+}
+
+table .number {
+    max-width: 30px;
+}
+
+.list table td,
+.list table th {
+    padding: 7px;
+}
+
+.list table th {
+    background-color: lightgray;
+}
+
+.list table a {
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 90%;
+    margin: 0 5px;
+    padding: 2px 5px;
+    background-color: lightgray;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.list table a:hover {
+    background-color: #F08080;
+}
+
+/* Form */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.form {
+    width: 40%;
+    background-color: rgb(39, 185, 39);
+    border-radius: 50px;
+    margin: 15px;
+}
+
+.judul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    margin: 15px 0 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+
+.isian {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+.isian table {
+    padding-top: 12px;
+}
+
+.isian input,
+.isian select {
+    border-radius: 5px;
+    width: auto;
+    border: 1px solid black;
+    margin-right: 15px;
+    color: black;
+}
+
+input,
+select {
+    padding: 1px 5px;
+}
+
+.isian td,
+.isian th {
+    padding: 0 5px 15px 0;
+    /* Atur padding untuk sel-sel tabel */
+}
+
+.isian input {
+    width: 140px;
+}
+
+.isian .alert {
+    color: red;
+}
+
+.isian .got {
+    color: green;
+}
+
+.isian table button,
+.isian table a {
+    background-color: lightgrey;
+    /* Contoh warna hijau */
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    width: 80px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.isian a {
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.isian button:hover,
+.isian a:hover {
+    background-color: #F08080;
+}
+
+/* tambah_sehari */
+/* ############################## */
+/* ############################## */
+
+.isian .tambah {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.isian .tambah {
+    padding: 0px;
+    margin-top: 0px;
+    background-color: white;
+    min-width: 550px;
+}
+
+.isian .tambah th {
+    background-color: lightgray;
+}
+
+.tambah_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tambah_menu .container {
+    width: 100%;
+}
+
+.tambah_menu .container .form {
+    width: 50%;
+}
+
+.tambah_menu .container .harga_makanan {
+    text-align: right;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.tambah_menu .isian .table {
+    padding-top: 25px;
+    padding-bottom: 0px;
+}
+
+.button-container {
+    text-align: center;
+    width: 550px;
+}
+
+.button-container tr td button,
+.button-container tr td a {
+    margin: 0 50px;
+}
+
+.tambah td,
+.tambah th {
+    padding: 7px;
+}
+
+.tambah select {
+    width: 125px;
+}
+
+#total,
+#total_qty {
+    border: none;
+    text-align: right;
+    font-weight: bold;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* menu */
+/* ############################## */
+/* ############################## */
+#month,
+#year {
+    display: none;
+}
+
+.bulan_tahun {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.bulan_tahun form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    flex-wrap: wrap;
+}
+
+.bulan_tahun .bulan {
+    display: inline-block;
+    /* Atau bisa juga menggunakan display: block; */
+    width: 275px;
+    /* tambahkan lebar yang diinginkan di sini, misalnya width: 200px; */
+    text-align: center;
+    /* Untuk membuat teks menjadi pusat di dalam span */
+    font-size: 35px;
+}
+
+.bulan_tahun button {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px 5px;
+    font-size: 18px;
+    background-color: lightgray;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.bulan_tahun .reset {
+    margin-top: 15px;
+}
+
+.bulan_tahun button:hover {
+    background-color: #F08080;
+}
+
+.filter .menu {
+    margin: 10px 0;
+}
+
+.list .tanggal td {
+    width: 100px;
+    height: 100px;
+    vertical-align: top;
+}
+
+.list .tanggal a {
+    display: block;
+    font-size: 15px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.harian {
+    height: 50px;
+    /* Ganti 50px sesuai dengan tinggi yang diinginkan */
+    background-color: lightgrey;
+    text-align: center;
+    font-size: initial;
+    padding: 3px;
+}
+
+.list .total {
+    text-align: center;
+    padding: 55px 0;
+}
+
+/* Detail_menu */
+/* ######################## */
+/* ######################## */
+
+.button-container .back {
+    padding-top: 5px;
+    /* padding-left: 86px; */
+}
+
+/* Kelola Akun */
+/* ####################### */
+/* ####################### */
+
+.role {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -51px;
+    margin-bottom: 50px;
+    height: 40px;
+}
+
+.role a {
+    display: inline-block;
+    line-height: 61px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    color: black;
+    margin: 0 23px;
+    font-size: 23px;
+}
+
+.role a:hover {
+    background-color: #009688;
+    /* color: white; */
+}
+
+.list table button {
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 90%;
+    margin: 0 5px;
+    padding: 2px 5px;
+    background-color: lightgray;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.list table button:hover {
+    background-color: #F08080;
+}
+
+/* User_menu */
+/* ################### */
+/* ################### */
+
+a .ada:hover{
+    background-color: lightgreen;
+}
+
+.bulan_tahun a {
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px 5px;
+    font-size: 18px;
+    background-color: lightgray;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.bulan_tahun .reset {
+    margin-top: 15px;
+}
+
+.bulan_tahun a:hover {
+    background-color: #F08080;
+}
+
+/* Request MAkanan */
+/* ##################### */
+/* ##################### */
+
+.request_makanan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.request_makanan a,
+.request_makanan button{
+    margin: 5px 15px;
+
+}
+
+.request_makanan .isian .table a{
+    margin: 100px;
+}
+
+.tombol {
+    text-align: center;
+    width: 300px;
+}
+
+.tombol tr td button,
+.tombol tr td a {
+    margin: 0 25px;
+}
+
+/* Request makanan */
+/* ##################### */
+/* ##################### */
+.role1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -55px;
+    margin-bottom: 60px;
+    height: 40px;
+}
+
+.role1 a {
+    display: inline-block;
+    line-height: 66px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    color: black;
+    margin: 0 23px;
+    font-size: 23px;
+}
+
+.role1 a:hover {
+    background-color: #009688;
+    /* color: white; */
+}
+
+/* Tambah Paket */
+/* ############################# */
+/* ############################# */
+
+.judul1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.judul1 h2 {
+    margin: 15px 0 35px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+
+/* Pilih Paket */
+/* ################### */
+/* ################### */
+.paket {
+    width: 200px;
+}
